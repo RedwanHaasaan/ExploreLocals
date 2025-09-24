@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact ExploreLocals - Plan Your Australian Adventure</title>
+    <meta name="description" content="Ready to start your Australian adventure? Get in touch and let's plan your perfect journey.">
+    <link rel="icon" href="../assets/favicon.png" type="image/png">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/animations.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="nav-container">
+                <a href="../index.html" class="nav-logo">
+                    <div class="logo-icon">
+                        <span>EL</span>
+                    </div>
+                    <span class="logo-text">ExploreLocals</span>
+                </a>
+                
+                <div class="nav-menu" id="nav-menu">
+                    <a href="../index.html" class="nav-link">Home</a>
+                    <a href="about.html" class="nav-link">About Us</a>
+                    <a href="explore.html" class="nav-link">Explore Places</a>
+                    <a href="contact.html" class="nav-link active">Contact Us</a>
+                </div>
+                
+                <div class="hamburger" id="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-header">
+            <div class="container">
+                <h1 class="page-title fade-in">Contact Us</h1>
+                <p class="page-subtitle fade-in-delay">Ready to start your Australian adventure? Get in touch and let's plan your perfect journey</p>
+            </div>
+        </section>
+
+        <section class="contact-section">
+            <div class="container">
+                <div class="contact-content">
+                    <div class="contact-info fade-in-scroll">
+                        <h2 class="contact-title">Get in Touch</h2>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">📍</div>
+                            <div class="contact-details">
+                                <h3 class="contact-heading">Visit Our Office</h3>
+                                <p class="contact-text">Level 15, 123 George Street<br>Sydney NSW 2000<br>Australia</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-icon">📞</div>
+                            <div class="contact-details">
+                                <h3 class="contact-heading">Call Us</h3>
+                                <p class="contact-text">+61 04 1448 7217 <br>Monday - Friday, 9AM - 6PM AEST</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-icon">✉️</div>
+                            <div class="contact-details">
+                                <h3 class="contact-heading">Email Us</h3>
+                                <p class="contact-text">hello@explorelocals.com.au<br>We'll respond within 24 hours</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-icon">🕒</div>
+                            <div class="contact-details">
+                                <h3 class="contact-heading">Business Hours</h3>
+                                <p class="contact-text">Monday - Friday: 9:00 AM - 6:00 PM<br>Saturday: 10:00 AM - 4:00 PM<br>Sunday: Closed</p>
+                            </div>
+                        </div>
+
+                        <div class="planning-info">
+                            <h3 class="planning-title">Planning Your Trip?</h3>
+                            <p class="planning-text">
+                                Our travel specialists are here to help you create the perfect Australian experience. Whether you're interested in cultural tours, wildlife encounters, or adventure activities, we'll tailor an itinerary that matches your interests and budget.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="contact-form-container fade-in-scroll">
+                        <h2 class="form-title">Send Us a Message</h2>
+                        <form class="contact-form" id="contactForm">
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="firstName" class="form-label">First Name *</label>
+                                    <input type="text" id="firstName" name="firstName" class="form-input" placeholder="Enter your first name" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="lastName" class="form-label">Last Name *</label>
+                                    <input type="text" id="lastName" name="lastName" class="form-input" placeholder="Enter your last name" required>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="email" class="form-label">Email Address *</label>
+                                <input type="email" id="email" name="email" class="form-input" placeholder="your.email@example.com" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="phone" class="form-label">Phone Number</label>
+                                <input type="tel" id="phone" name="phone" class="form-input" placeholder="+61 XXX XXX XXX">
+                            </div>
+
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="travelDates" class="form-label">Preferred Travel Dates</label>
+                                    <input type="text" id="travelDates" name="travelDates" class="form-input" placeholder="e.g., March 2024">
+                                </div>
+                                <div class="form-group">
+                                    <label for="groupSize" class="form-label">Group Size</label>
+                                    <select id="groupSize" name="groupSize" class="form-select">
+                                        <option value="">Select group size</option>
+                                        <option value="1">1 person</option>
+                                        <option value="2">2 people</option>
+                                        <option value="3-4">3-4 people</option>
+                                        <option value="5-8">5-8 people</option>
+                                        <option value="9+">9+ people</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="interests" class="form-label">Areas of Interest</label>
+                                <input type="text" id="interests" name="interests" class="form-input" placeholder="e.g., Wildlife, Culture, Adventure, Food">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="subject" class="form-label">Subject *</label>
+                                <input type="text" id="subject" name="subject" class="form-input" placeholder="What can we help you with?" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="message" class="form-label">Message *</label>
+                                <textarea id="message" name="message" class="form-textarea" rows="5" placeholder="Tell us about your dream Australian experience..." required></textarea>
+                            </div>
+
+                            <button type="submit" class="btn btn-primary form-submit">Send Message ✈️</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="footer-logo">
+                        <div class="logo-icon">
+                            <span>EL</span>
+                        </div>
+                        <span class="logo-text">ExploreLocals</span>
+                    </div>
+                    <p class="footer-description">
+                        Discover the hidden gems of Australia through authentic local experiences. We connect travelers with unique regional adventures and cultural treasures.
+                    </p>
+                    <div class="social-links">
+                        <a href="#" class="social-link" aria-label="Facebook">f</a>
+                        <a href="#" class="social-link" aria-label="Instagram">@</a>
+                        <a href="#" class="social-link" aria-label="Twitter">t</a>
+                    </div>
+                </div>
+
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4 class="footer-heading">Quick Links</h4>
+                        <ul class="footer-list">
+                            <li><a href="../index.html" class="footer-link">Home</a></li>
+                            <li><a href="about.html" class="footer-link">About Us</a></li>
+                            <li><a href="explore.html" class="footer-link">Explore Places</a></li>
+                            <li><a href="contact.html" class="footer-link">Contact Us</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-column">
+                        <h4 class="footer-heading">Contact Info</h4>
+                        <ul class="footer-list">
+                            <li class="contact-item">📍Melbourne, Victoria, Australia</li>
+                            <li class="contact-item">📞 +61 04 1448 7217 </li>
+                            <li class="contact-item">✉️ hello@explorelocals.com.au</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2025 ExploreLocals. All rights reserved. | Student ID: M0247871</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../js/animations.js"></script>
+</body>
+</html>
